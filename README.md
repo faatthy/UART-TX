@@ -11,81 +11,53 @@ for the receiving device.
 ![image](https://github.com/faatthy/UART-TX/assets/110846097/18bba60c-6c5e-4c50-bdaa-cb81eab8bbf5)
 
 ## Data Details
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UART Table</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
-        th:first-child, td:first-child {
-            color: red;
-        }
-    </style>
-</head>
-<body>
-    <table>
-        <tr>
-            <th>Port</th>
-            <th>Width</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>CLK</td>
-            <td>1</td>
-            <td>UART TX Clock Signal</td>
-        </tr>
-        <tr>
-            <td>RST</td>
-            <td>1</td>
-            <td>Synchronized reset signal</td>
-        </tr>
-        <tr>
-            <td>PAR_TYP</td>
-            <td>1</td>
-            <td>Parity Type</td>
-        </tr>
-        <tr>
-            <td>PAR_EN</td>
-            <td>1</td>
-            <td>Parity_Enable</td>
-        </tr>
-        <tr>
-            <td>P_DATA</td>
-            <td>Parameterized (Default = 8)</td>
-            <td>Input data byte</td>
-        </tr>
-        <tr>
-            <td>DATA_VALID</td>
-            <td>1</td>
-            <td>Input data valid signal</td>
-        </tr>
-        <tr>
-            <td>TX_OUT</td>
-            <td>1</td>
-            <td>Serial Data OUT</td>
-        </tr>
-        <tr>
-            <td>Busy</td>
-            <td>1</td>
-            <td>High signal during transmission, otherwise low</td>
-        </tr>
-    </table>
-</body>
-</html>
+<table>
+    <tr>
+        <th>Port</th>
+        <th>Width</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td style="color: red;">CLK</td>
+        <td>1</td>
+        <td>UART TX Clock Signal</td>
+    </tr>
+    <tr>
+        <td style="color: red;">RST</td>
+        <td>1</td>
+        <td>Synchronized reset signal</td>
+    </tr>
+    <tr>
+        <td style="color: red;">PAR_TYP</td>
+        <td>1</td>
+        <td>Parity Type</td>
+    </tr>
+    <tr>
+        <td style="color: red;">PAR_EN</td>
+        <td>1</td>
+        <td>Parity_Enable</td>
+    </tr>
+    <tr>
+        <td style="color: red;">P_DATA</td>
+        <td>Parameterized (Default = 8)</td>
+        <td>Input data byte</td>
+    </tr>
+    <tr>
+        <td style="color: red;">DATA_VALID</td>
+        <td>1</td>
+        <td>Input data valid signal</td>
+    </tr>
+    <tr>
+        <td style="color: red;">TX_OUT</td>
+        <td>1</td>
+        <td>Serial Data OUT</td>
+    </tr>
+    <tr>
+        <td style="color: red;">Busy</td>
+        <td>1</td>
+        <td>High signal during transmission, otherwise low</td>
+    </tr>
+</table>
 
 ## Specs
 - UART TX receive the new data on P_DATA Bus only when 
