@@ -75,3 +75,15 @@ processing, however Data_Valid get high.
  PAR_TYP (Configuration) 
 0: Even parity bit 
 1: Odd parity bit 
+
+## Data Frame 
+
+-  One start bit (1'b0)
+-  Data (LSB first or MSB, 8 bits)
+-  One stop bit
+![image](https://github.com/faatthy/UART-TX/assets/110846097/d148b81b-9172-4302-bcc5-97730879b574)
+
+## TOP Design 
+
+![image](https://github.com/faatthy/UART-TX/assets/110846097/681d1e23-bdc5-4e95-b92c-519ecc1ffafd)
+
